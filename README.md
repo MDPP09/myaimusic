@@ -79,11 +79,10 @@ docker compose build && docker compose up
 
 - If deployed to Vercel, please add an environment variable `SUNO_COOKIE` in the Vercel dashboard, with the value of the cookie obtained in the first step.
 
-- If you’re running this locally, be sure to add the following to your `.env` file:
+- If you’re running this locally, be sure to add the following to your `.env` file
+- if you're want to see exemple apps you can open apps folder and you can run apps.py with this command $streamlit run apps.py  make sure you're downlowded the data package with $pip install streamlit
 
-```bash
-SUNO_COOKIE=<your-cookie>
-```
+
 
 ### 4. Run suno api
 
@@ -261,45 +260,4 @@ async function main() {
 main();
 ```
 
-## Integration with Custom Agents
 
-You can integrate Suno AI as a tool/plugin/action into your AI agent.
-
-### Integration with GPTs
-
-[coming soon...]
-
-### Integration with Coze
-
-[coming soon...]
-
-### Integration with LangChain
-
-[coming soon...]
-
-## Contributing
-
-There are four ways you can support this project:
-
-1. Fork and Submit Pull Requests: We welcome any PRs that enhance the component or editor.
-2. Open Issues: We appreciate reasonable suggestions and bug reports.
-3. Donate: If this project has helped you, consider buying us a coffee using the Sponsor button at the top of the project. Cheers! ☕
-4. Spread the Word: Recommend this project to others, star the repo, or add a backlink after using the project.
-
-## Questions, Suggestions, Issues, or Bugs?
-
-We use GitHub Issues to manage feedback. Feel free to open an issue, and we'll address it promptly.
-
-## License
-
-LGPL-3.0 or later
-
-## Related Links
-
-- Project repository: [github.com/gcui-art/suno-api](https://github.com/gcui-art/suno-api)
-- Suno.ai official website: [suno.ai](https://suno.ai)
-- Demo: [suno.gcui.ai](https://suno.gcui.ai)
-
-## Statement
-
-suno-api is an unofficial open source project, intended for learning and research purposes only.
