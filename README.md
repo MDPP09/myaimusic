@@ -80,7 +80,16 @@ docker compose build && docker compose up
 - If deployed to Vercel, please add an environment variable `SUNO_COOKIE` in the Vercel dashboard, with the value of the cookie obtained in the first step.
 
 - If you’re running this locally, be sure to add the following to your `.env` file
-- if you're want to see exemple apps you can open apps folder and you can run apps.py with this command '''bash streamlit run apps.py'''  make sure you're downlowded the data package with $pip install streamlit
+- if you're want to see exemple apps you can open apps folder and you can run apps.py with this command
+  
+```bash
+streamlit run apps.py
+```
+make sure you're already downlowd streamlit package, if not you're can install it in your env
+```bash
+pip install streamlit
+```
+
 
 
 
