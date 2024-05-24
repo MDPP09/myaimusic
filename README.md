@@ -7,7 +7,7 @@
 </div>
 <p align="center">
   <a target="_blank" href="./README.md">English</a> 
-  | <a target="_blank" href="./README_CN.md">简体中文</a> 
+  | <a target="_blank" href="./README_CN.md">indonesia</a> 
   | <a target="_blank" href="https://suno.gcui.art">Demo</a> 
   | <a target="_blank" href="https://suno.gcui.art/docs">Docs</a> 
   | <a target="_blank" href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgcui-art%2Fsuno-api&env=SUNO_COOKIE&project-name=suno-api&repository-name=suno-api">Deploy with Vercel</a> 
